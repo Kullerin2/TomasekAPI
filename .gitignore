@@ -9,3 +9,5 @@
 /TomasekCore.ApiApp/obj
 /terraform.tfstate.backup
 /terraform.tfstate
+/.terraform.lock.hcl
+/.terraform/providers/registry.terraform.io/hashicorp/azurerm/2.79.1/windows_amd64/terraform-provider-azurerm_v2.79.1_x5.exe

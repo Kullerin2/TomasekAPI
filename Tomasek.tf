@@ -53,6 +53,15 @@ resource "azurerm_api_management_api_operation" "findByStatus" {
   url_template        = "/findByStatus"
   description         = "This can only be done by the logged in user"
 
+  request {
+    representation {
+      
+        content_type = "application/json"
+        sample = file("${path.module}/RepresentationSample.json")           
+
+      
+    }
+  }
   response {
     status_code = 200
   }

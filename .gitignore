@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/TomasekApi/v16/.suo
+/.vs
+/TomasekCore.ApiApp/.terraform/providers/registry.terraform.io/hashicorp/azurerm/2.79.1/windows_amd64
+/TomasekCore.ApiApp/bin
+/TomasekCore.ApiApp/obj
+/terraform.tfstate.backup
+/terraform.tfstate
